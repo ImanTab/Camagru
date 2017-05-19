@@ -1,0 +1,68 @@
+body {
+  background: url(../images/bg.jpg);
+  min-height: 100%;
+ margin: 0;
+ padding: 0;
+ position: relative;
+}
+
+.main_section {
+  width:80%;
+  margin-left:10%;
+  display:inline-flex;
+}
+
+#cam_section {
+  width:65%;
+  height:50%;
+  background-color:yellow;
+}
+
+#gallery {
+  background-color:blue;
+  width:35%;
+}
+
+#en_tete {
+  display: inline-flex;
+  width: 100%;
+  padding-left: 25px;
+  background-color: #231938;
+  margin-bottom: 35px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+#titre {
+  width: 90%;
+  color: beige;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#logout {
+  width: 10%;
+  margin-right: 3%;
+  padding-top: 25px;
+}
+
+#logout a {
+  text-decoration: none;
+  color: beige;
+  font-size: 25px;
+}
+
+#forgot_password {
+  cursor: pointer;
+}
+
+footer {
+  font-size: 25px;
+  color: beige;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 25px;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
